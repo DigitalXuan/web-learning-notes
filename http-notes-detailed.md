@@ -16,5 +16,5 @@ Host: api.example.com
 ### POST - 创建资源
 POST /api/users HTTP/1.1
 Content-Type: application/json
-{name: 张三，age: 25}
+{"name": "张三"，"age": 25}
 用途：提交数据，创建新资源
